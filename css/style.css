@@ -15,7 +15,7 @@
 
 .debug .site_header {
     height: 100px;
-    background-color: rgb(27, 27, 209);
+    background-color: lightcoral;
 }
 
 .debug .container  {
@@ -44,4 +44,18 @@
     height: 100px;
     background-color: rosybrown;
     width: 20%;
+}
+
+.debug .jumbo{
+    background-color: lightblue;
+    height: 1000px;
+    width: 100%;
+}
+
+.debug .jumbo_container div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
