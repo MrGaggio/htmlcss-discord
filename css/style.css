@@ -4,6 +4,44 @@
     box-sizing: border-box;
 }
 
-.debug.site_header{
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+
+/*Classi di Debug */
+
+.debug .site_header {
     height: 100px;
+    background-color: rgb(27, 27, 209);
+}
+
+.debug .container  {
+    background-color: rgb(77, 77, 87);
+    width: 70%;
+    height: 100px;
+    margin: auto;
+}
+
+.debug .logo_container{
+    float: left;
+    height: 100px;
+    background-color: rosybrown;
+    width: 20%;
+}
+
+.debug .nav_container{
+    float: left;
+    height: 100px;
+    background-color: yellow;
+    width: 60%;
+}
+
+.debug .botton_container{
+    float: left;
+    height: 100px;
+    background-color: rosybrown;
+    width: 20%;
 }
