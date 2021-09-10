@@ -59,3 +59,25 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.debug .container1_3 {
+    background-color: white;
+    width: 70%;
+    height: 1000px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.debug .colum1{
+    float: left;
+    width: 34%;
+    background-color: violet;
+    height: 1000px;
+}
+
+.debug .colum2{
+    float: left;
+    width: 66%;
+    background-color: yellowgreen;
+    height: 1000px;
+}
