@@ -15,7 +15,7 @@
 }
 
 .container  {
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
 
@@ -26,11 +26,42 @@
     padding: 15px 0;
 }
 
+
+/* /logo container */
+
+ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    vertical-align: middle;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+    
+   
+}
+
 .nav_container{
     float: left;
     width: 60%;
+    height: 50px;
+    position: relative;
+    
 }
 
+
+/* /.nav_container */
 .botton_container{
     float: left;
     width: 20%;
