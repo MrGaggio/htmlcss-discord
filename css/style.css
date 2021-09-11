@@ -36,6 +36,7 @@ ul{
     transform: translate(-50%, -50%);
     text-align: center;
     vertical-align: middle;
+    width: 100%;
 }
 
 li{
@@ -47,25 +48,66 @@ li{
 a{
     text-decoration: none;
     color: white;
-    padding-right: 15px;
+    padding-right: 25px;
     
    
 }
 
 .nav_container{
     float: left;
-    width: 60%;
-    height: 50px;
+    width: 50%;
+    height: 68px;
     position: relative;
     
 }
 
 
 /* /.nav_container */
+
 .botton_container{
     float: left;
     width: 20%;
+    height: 68px;
+    position: relative;
 }
+
+.header_botton{
+   width: 70px;
+   height: 30px;
+   background-color: white;
+   border-radius: 40px;
+   text-align: center;
+   vertical-align: middle;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   vertical-align: middle;
+   padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Classi di Debug */
 
