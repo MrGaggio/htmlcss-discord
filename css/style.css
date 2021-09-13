@@ -159,51 +159,24 @@ a{
 /* /   JUMBO */
 
 
-.container1_4 {
+.container {
     background-color: white;
     width: 60%;
     margin: auto;
     margin-top: 200px;
 }
 
-.container1_4 .colum1{
+.col60{
     float: left;
-    width: 65%;
-    height: 500px;
-    position: relative;
-}
-
-.container1_4 .colum2{
-    float: right;
-    width: 35%;
-    height: 500px;
-    position: relative;
-}
-
-/* /SECTION 1 */
-
-
-.container2_4 {
-    background-color: white;
     width: 60%;
-    margin: auto;
-    margin-top: 200px;
 }
 
-.colum1_2{
-    float: left;
-    width: 35%;
-    height: 500px;
-    position: relative;
-}
-
-.colum2_2{
+.col40{
     float: right;
-    width:65%;
-    height: 500px;
-    position: relative;
+    width: 40%;
 }
 
+/* /Invito  */
 
 
 
