@@ -35,6 +35,10 @@ h4, h5{
     color: #3161E0;
 }
 
+h5{
+    font-size: large;
+
+}
 p{
     font-family: Arial, Helvetica, sans-serif;
     word-spacing: 3px;
@@ -47,7 +51,7 @@ p{
     margin: 40px 0;
 }
 
-ul{
+.site_header ul{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -57,7 +61,7 @@ ul{
     width: 100%;
 }
 
-li{
+.site_header li{
     display: inline-block;
     list-style-type: none;
 }
@@ -165,6 +169,7 @@ a{
 /* /   JUMBO */
 
 
+
 .container {
     background-color: white;
     width: 60%;
@@ -237,12 +242,10 @@ a{
     float: left;
     width: 20%;
     height: 800px;
-    background-color: white;
 }
 .prodotto{
     float: left;
     width: 20%;
-    background-color: yellow;
     height: 800px;
 }
 
@@ -262,9 +265,27 @@ a{
 }
 
 .bandiera{
-    
+    margin: 30px 0;
 }
 
+.footer_container li{
+    list-style-type: none;
+}
+
+.footer_container a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    line-height: 40px;
+}
+
+.social{
+    font-size: 20px;
+    color: white;
+    word-spacing: 15px;
+    
+
+}
 /*Classi di Debug */
 /* 
 .debug .site_header {
