@@ -19,13 +19,22 @@ h1{
     color: white;
 }
 
+h2{
+    font-size: 3rem;
+}
+
 h3{
     display: inline-block;
     font-size: 1.2rem;
     margin: 20px 50px;
-
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    line-height: 1.5rem;
+
+}
 .jumbo p{
     font-size: 1.6rem;
     color: white;
@@ -53,7 +62,6 @@ a{
     padding-right: 20px;
     font-size: 1rem;
     width: 100%;
-
 }
 
 /* HEADER */
@@ -63,7 +71,7 @@ a{
 }
 
 .container  {
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
@@ -76,13 +84,13 @@ a{
 
 .nav_container{
     float: left;
-    width: 50%;
+    width: 60%;
     height: 68px;
     position: relative;
 }
 
 .botton_container{
-    float: left;
+    float: right;
     width: 20%;
     height: 68px;
     position: relative;
@@ -113,9 +121,10 @@ a{
 
 .jumbo{
     background-image: url(../img/jumbo.png);
+    position: relative;
     width: auto;
-    height: 800px;
-    background-size: cover ;
+    height: 700px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -130,7 +139,7 @@ a{
 .mac{
     background-color: white;
     height: 50px;
-    width: 200px;
+    width: 300px;
     border-radius: 30px;
     padding-top: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -139,7 +148,7 @@ a{
 .browser{
     background-color: black;
     height: 50px;
-    width: 250px;
+    width: 350px;
     border-radius: 30px;
     color: white;
     padding-top: 12px;
@@ -147,13 +156,53 @@ a{
 }
 
 
+/* /   JUMBO */
 
 
+.container1_4 {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.container1_4 .colum1{
+    float: left;
+    width: 65%;
+    height: 500px;
+    position: relative;
+}
+
+.container1_4 .colum2{
+    float: right;
+    width: 35%;
+    height: 500px;
+    position: relative;
+}
+
+/* /SECTION 1 */
 
 
+.container2_4 {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 200px;
+}
 
+.colum1_2{
+    float: left;
+    width: 35%;
+    height: 500px;
+    position: relative;
+}
 
-
+.colum2_2{
+    float: right;
+    width:65%;
+    height: 500px;
+    position: relative;
+}
 
 
 
