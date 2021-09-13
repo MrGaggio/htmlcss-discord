@@ -14,6 +14,10 @@ body{
     clear: both; 
 }
 
+main{
+    margin-bottom: 200px;
+}
+
 h1{
     font-size: 4rem;
     color: white;
@@ -25,7 +29,10 @@ h2{
 
 h3{
     font-size: 1.2rem;
-    
+}
+
+h4, h5{
+    color: #3161E0;
 }
 
 p{
@@ -204,15 +211,62 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* /MAIN */
 
 
+/* /Footer/ */
 
+.footer_container{
+    background-color:#23272A;
+    height: 800px;
+    width: 100%;  
+}
 
+.foot_nav{
+    width: 60%;
+    margin: auto;
+    padding-top: 80px;
+}
 
+.colonne{
+    width: 100%;
+    height: 800px;
+}
 
+.posto{
+    float: left;
+    width: 20%;
+    height: 800px;
+    background-color: white;
+}
+.prodotto{
+    float: left;
+    width: 20%;
+    background-color: yellow;
+    height: 800px;
+}
+
+.compagnia{
+    float: left;
+    width: 20%;
+}
+
+.risorse{
+    float: left;
+    width: 20%;
+}
+
+.norma{
+    float: left;
+    width: 20%;
+}
+
+.bandiera{
+    
+}
 
 /*Classi di Debug */
-
+/* 
 .debug .site_header {
     
     background-color: #3161E0;
@@ -262,7 +316,7 @@ a{
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
+/* 
 /* /JUMBO */
 .debug .container1_4 {
     background-color: white;
@@ -432,5 +486,5 @@ a{
     height: 200px;
     background-color: greenyellow;
 }
-
-/* /FOOTER footer_litle_container */
+ */
+/* /FOOTER footer_litle_container */ 
