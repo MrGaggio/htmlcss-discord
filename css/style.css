@@ -146,6 +146,7 @@ a{
     text-align: center;
 }
 
+
 .mac{
     background-color: white;
     height: 50px;
@@ -166,11 +167,16 @@ a{
 }
 
 
+
 /* /   JUMBO */
 
-
+.tecnologia{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 .container {
+    padding: 100px 0;
     background-color: white;
     width: 60%;
     margin: auto;
@@ -283,9 +289,10 @@ a{
     font-size: 20px;
     color: white;
     word-spacing: 15px;
-    
-
 }
+
+
+
 /*Classi di Debug */
 /* 
 .debug .site_header {
